@@ -1,0 +1,12 @@
+name: 'Publish info'
+description: 'Publish info about release'
+inputs:
+  oauth:
+    description: 'OAuth token'
+    required: true
+  orgid:
+    description: 'organization id'
+    required: true
+runs:
+  using: 'node16'
+  main: 'publish-info.js'

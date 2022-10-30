@@ -1,0 +1,5 @@
+name: 'Create Docker'
+description: 'Create Docker with release project'
+runs:
+  using: 'docker'
+  image: '../../../Dockerfile'
